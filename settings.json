@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "toxicsmps1-VBpm.aternos.me",
+    "port": 40005,
+    "version": "26.2",
     "try-creative": false
   },
   "position": {
@@ -27,8 +27,8 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -42,7 +42,7 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -53,19 +53,19 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -73,12 +73,12 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.gg/uppMDcBed6",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
